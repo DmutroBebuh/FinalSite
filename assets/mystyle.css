@@ -1,0 +1,292 @@
+
+    body {
+        background-image: url("https://img.freepik.com/premium-photo/chalkboard-and-blackboard-dark-wallpaper-background_28629-1125.jpg");
+        line-height: 1.1;
+        margin: 0;
+        flex-direction: column;
+
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    h1, h2, h4, h5, h6 {
+        color: white;
+        margin: 0;
+    }
+
+    .conteiner {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .intro {
+        width: 100%;
+        height: 1100px;
+        background-image: url("../img/intro_02.jpg");
+        background-size: cover;
+
+    }
+
+    .header {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        padding-top: 30px;
+    }
+
+    .header_inner {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5px;
+        background-color: rgba(111, 111, 111, 0.3);
+        align-items: center;
+    }
+
+    .header_logo {
+        font-size: 10px;
+        top: 0;
+        left: 20px;
+        right: 0;
+    }
+
+    .h1 {
+        font-size: 55px;
+    }
+
+    .img {
+        width: 90px;
+    }
+
+    .nav {
+        text-transform: uppercase;
+        font-size: 18px;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .nav_link {
+        display: inline-block;
+        margin: 0 25px;
+        vertical-align: center;
+        text-decoration: none;
+        color: white;
+        transition: 0.2s linear;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .nav_link:hover {
+        color: darkred;
+    }
+
+    .img_coffee {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        width: 70%;
+        height: 680px;
+    }
+
+    .div_img_coffee2 {
+        align-items: flex-end;
+        margin: 40px;
+    }
+
+    .img_coffee2 {
+        height: 200px;
+    }
+
+    .cont {
+        position: absolute;
+        padding: 25px;
+        margin-bottom: 1px;
+        width: 100%;
+        height: 700px;
+        display: inline-block;
+    }
+
+    .cont_inner {
+        background-color: rgb(240, 190, 115);
+        width: 97%;
+        margin: 10px;
+        padding: 10px;
+        height: 230px;
+        position: absolute;
+    }
+
+    .img_coffee2_div {
+        margin-top: 10px;
+        margin-right: 20px;
+        max-width: 100%;
+    }
+
+    .h_2 {
+        font-family: Magneto, "Humnst777 BlkCn BT";
+        margin-left: 40px;
+    }
+
+    .p_1 {
+        font-family: cursive;
+        font-size: 16px;
+    }
+
+    /*2-га сторінка*/
+    main {
+
+    }
+
+    .section {
+
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .prob_div {
+        align-items: center;
+        display: flex;
+    }
+
+    .prob_img {
+        height: 160vh;
+        width: 100%;
+        align-self: center;
+        justify-content: space-around;
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+
+    }
+
+    .prob_text {
+        background-color: rgba(240, 176, 48, 0.7);
+        position: absolute;
+        text-align: center;
+        margin-left: 140px;
+
+        width: 50vh;
+
+    }
+
+    .section_img {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    .prob_img_div {
+        background-color: #f0b030;
+        width: 175px;
+        position: absolute;
+        text-align: center;
+    }
+
+    .h_3 {
+        width: 400px;
+        height: 15vh;
+        text-align: center;
+        background-color: yellow;
+        position: absolute;
+
+    }
+
+    h3 {
+        color: black;
+        text-align: center;
+        position: revert;
+    }
+
+
+    /*Сторінка 3*/
+.section_two{
+  max-width: 100%;
+}
+    .main_content {
+        display: flex;
+        max-width: 100%;
+
+    }
+
+    .main_content_sered {
+        display: flex;
+        max-width: 100%;
+        margin: 10px;
+        height: 100%;
+    }
+
+    .main_img {
+        width: 100%;
+        border-radius: 40px;
+        margin: 10px;
+    }
+
+    .div_3 {
+        width: 20%;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 30px;
+        height: auto;
+        margin: 10px;
+    }
+
+    .div_img_3 {
+        width: 90%;
+        border-radius: 30px;
+        margin: 20px;
+
+    }
+
+    .bludo1_text {
+        font-family: fantasy;
+        align-items: flex-start;
+        text-align: center;
+        font-size: 33px;
+
+    }
+
+    .bludo1_text_name {
+        font-family: 'Nabla', cursive;
+        color: orangered;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bludo1_text_link {
+        margin-top: 30px;
+        height: 12%;
+        font-family: fantasy;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .bludo2_text_link {
+        height: 12%;
+        font-family: fantasy;
+        text-align: center;
+        font-size: 16px;
+    }
+.footer{
+    width: 100%;
+    height:550px;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+footer a{
+    margin-left: 20px;
+}
+.img_logo{
+    height: 200px;
+}
